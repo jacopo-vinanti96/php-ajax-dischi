@@ -1,7 +1,6 @@
 <!-- INCLUSIONE DICHIARAZIONI -->
 <?php
-include __DIR__ . '/partials/functions.php';
-include __DIR__ . '/partials/vars.php';
+include __DIR__ . '/database.php'
 ?>
 
 <!-- INIZIO HTML -->
