@@ -1,6 +1,6 @@
 <!-- INCLUSIONE DICHIARAZIONI -->
 <?php
-include __DIR__ . '/database.php'
+include __DIR__ . '//database.php'
 ?>
 
 <!-- INIZIO HTML -->

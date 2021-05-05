@@ -14,7 +14,7 @@ const app = new Vue ({
   },
   methods: {
     getAlbums() {
-      axios.get('https://flynn.boolean.careers/exercises/api/array/music')
+      axios.get('http://localhost/php-ajax-dischi/api.php')
       .then( (arr) => {
         this.albums = arr.data.response;
         this.removeDupesGenre();
